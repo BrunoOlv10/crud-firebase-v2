@@ -9,7 +9,6 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AngularFireModule } from '@angular/fire/compat'
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore'
-// import { environment } from 'src/environments/environment';
 
 const firebaseConfig = {
   apiKey: "AIzaSyBmCUD7IbFcDsKX4xdfqRfWQseI7U7T1t8",
