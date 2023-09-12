@@ -7,23 +7,13 @@ ion-title {
   color: #ff0084;
 }
 
-ion-title:hover {
-  opacity: 0.5;
-  transition: 0.5s;
-}
-
-ion-item.box-aviso {
+ion-item.box {
   --background: #121212;
   border: none;
 }
 
 ion-item {
   --background: #181818;
-}
-
-ion-label.aviso:hover {
-  opacity: 0.5;
-  transition: 0.5s;
 }
 
 #container {
@@ -56,11 +46,4 @@ button {
   width: 50px;
   height: 50px;
   background: #ff0084;
-}
-
-button:hover {
-  scale: 115%;
-  transition-property: scale;
-  transition-duration: 150ms;
-  filter: brightness(1.1);
 }

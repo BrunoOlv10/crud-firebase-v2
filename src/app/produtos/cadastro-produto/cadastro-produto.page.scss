@@ -8,11 +8,6 @@ ion-title {
   margin-right: 24px;
 }
 
-ion-title:hover {
-  opacity: 0.5;
-  transition: 0.5s;
-}
-
 ion-input {
   width: 80vw;
   margin: auto;
@@ -35,11 +30,4 @@ button {
   background: #ff0084;
   margin: 25px auto;
   border-radius: 5px;
-}
-
-button:hover {
-  scale: 115%;
-  transition-property: scale;
-  transition-duration: 150ms;
-  filter: brightness(1.1);
 }

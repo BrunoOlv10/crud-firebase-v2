@@ -4,25 +4,12 @@
     <ion-title>Cadastrar Produto</ion-title>
   </ion-toolbar>
 </ion-header>
-
 <ion-content [fullscreen]="true">
-
       <div class="principal">
-        <ion-input
-        [(ngModel)]="novo_produto.nome"
-        placeholder="Nome do produto"
-        >
+        <ion-input [(ngModel)]="novo_produto.nome" placeholder="Nome do produto">
         </ion-input>
-        <ion-input
-        [(ngModel)]="novo_produto.valor"
-        placeholder="Valor do produto"
-        type="number"
-        >
+        <ion-input [(ngModel)]="novo_produto.valor" placeholder="Valor do produto" type="number">
         </ion-input>
-
-        <button (click)="cadastrarProduto()">
-          Cadastrar
-        </button>
+        <button (click)="cadastrarProduto()">Cadastrar</button>
       </div>
-
 </ion-content>
